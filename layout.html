@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="pt-5 background-image shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="form-group container">
+            <div class="header">
+                <label class="pb-2" style="display: block;"><h3>Bài tập buổi 8 JS</h3></label>
+                <input id="number-head" type="number" class="form-control" placeholder="Nhập số n" style="display: inline; width: 300px;">
+                <button id="button-head" class="rounded-pill px-4 button btn btn-dark" >Thêm Số</button>
+            </div>
+            <div id="show-number" class="show-number container fa-solid fa-circle-arrow-right" style="display: block; background-color: aquamarine;">
+            </div>
+        </div> 
+
+        <br>
+
+        <br>
+
+        <div  id="bt-1">
+            <div class="title-bt1">
+                <div class="title">
+                    <p><i class="background-icon"></i> Bài 1: Tổng số dương</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt1" class="rounded-pill px-4 button btn btn-primary" >Tính Tổng</button>
+                <div id="show-bt1" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+        <div id="bt-2">
+            <div class="title-bt2">
+                <div class="title">
+                    <p><i class="background-icon"></i> Bài 2: Đếm số dương</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt2" class="rounded-pill px-4 button btn btn-primary" >Đếm Số</button>
+                <div id="show-bt2" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+        <div id="bt-3">
+            <div class="title-bt3">
+                <div class="title">
+                    <p><i class="background-icon"></i> Bài 3: Tìm số nhỏ nhất</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt3" class="rounded-pill px-4 button btn btn-primary">Tìm số nhỏ nhất</button>
+                <div id="show-bt3" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+        <div id="bt-4">
+            <div class="title-bt4">
+                <div class="title">
+                    <p><i class="background-icon"></i>Bài 4: Tìm số dương nhỏ nhất</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt4" class="rounded-pill px-4 button btn btn-primary">Tìm số dương nhỏ nhất</button>
+                <div id="show-bt4" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+        <div id="bt-5">
+            <div class="title-bt5">
+                <div class="title">
+                    <p><i class="background-icon"></i> Bài 5: Tìm số chẵn cuối cùng</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt5" class="rounded-pill px-4 button btn btn-primary">Tìm Số Chẵn</button>
+                <div id="show-bt5" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+        <!-- <div id="bt-6">
+            <div class="title-bt6">
+                <div class="title">
+                    <p><i class="fa-solid fa-6 background-icon"></i> đổi chỗ</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt6" class="rounded-pill px-4 button btn btn-primary" >Đổi chỗ</button>
+                <div id="show-bt6" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div> -->
+
+        <div id="bt-7">
+            <div class="title-bt7">
+                <div class="title">
+                    <p><i class="background-icon"></i>Bài 7: Sắp Xếp Tăng Dần </p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt7" class="rounded-pill px-4 button btn btn-primary" >Sắp xếp</button>
+                <div id="show-bt7" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+        <div id="bt-8">
+            <div class="title-bt8">
+                <div class="title">
+                    <p><i class="background-icon"></i>Bài 8: Tìm số nguyên tố đầu tiên</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt8" class="rounded-pill px-4 button btn btn-primary" >Tìm Số nguyên tố</button>
+                <div id="show-bt8" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+        <div id="bt-10">
+            <div class="title-bt10">
+                <div class="title">
+                    <p><i class="background-icon"></i>Bài 10: so sánh số lương số dương và số âm</p>
+                     <div><i class="fa-solid fa-chevron-up"></i></div>
+                </div>
+
+                <br>
+
+                <button id="button-bt10" class="rounded-pill px-4 button btn btn-primary" >So Sánh</button>
+                <div id="show-bt10" class="show-number container " style="display: none; background-color: aquamarine;"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    
+       
+            
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- My JS  -->
+    <script src="./index.js"></script>
+</body>
+</html>

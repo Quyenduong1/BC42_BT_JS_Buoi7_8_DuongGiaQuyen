@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    background-color: #dfe1e9;
+    border-top: 0.2rem solid  rgba(0, 0, 0, 0.3) ;
+    border-left: 0.2rem solid  rgba(0, 0, 0, 0.3);
+    border-bottom: 0.2rem solid rgba(255, 255, 255, 0.5);
+    border-right:  0.2rem solid rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 0 0.1rem rgb(243, 243, 243);
+    border-radius: 0.5rem;
+    
+}
+
+.form-control:focus {
+    box-shadow: inset 0.25rem 0.25rem 0 0 rgba(103, 109, 103, 0.25) ;
+    border: white;
+}
+
+.background-image {
+    background-image: url(./image/anh-nen-powerpoint_012323041.jpg);
+    width: 50rem;
+    margin: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.3)!important;
+}
+
+.rounded {
+    border-radius: 10px!important;
+}
+
+.show-number {
+    margin-top: 10px;
+    padding: 10px 0 15px 10px;
+    border-radius: 10px;
+}
+
+.form-group {
+    width: 75%;
+}
+
+.background-icon {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(37, 241, 197);
+    text-align: center;
+    color: white;
+    padding-top: 0.2rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+#bt-1, #bt-2, #bt-3, #bt-4, #bt-5, #bt-6, #bt-7, #bt-8, #bt-9, #bt-10{
+    width: 75%;
+    margin: auto;   
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(213, 240, 196);
+    padding: 9px 10px 1px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#button-bt1, #button-bt2, #button-bt3, #button-bt4, #button-bt5, #button-bt6, #button-bt7, #button-bt8, #button-bt9, #button-bt10 {
+    margin-bottom: 20px;
+}
+
+#show-bt1, #show-bt2, #show-bt3, #show-bt4, #show-bt5, #show-bt6, #show-bt7, #show-bt8, #show-bt9, #show-bt10 {
+    margin-bottom: 20px;
+}
